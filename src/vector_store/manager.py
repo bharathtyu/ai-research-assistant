@@ -1,12 +1,14 @@
+import os
+
 import chromadb
 from sentence_transformers import SentenceTransformer
-import os
 
 
 class VectorStoreManager:
     def __init__(self):
         """
-        Initialize ChromaDB and embedding model.
+        Initialize ChromaDB.
+        The embedding model will be loaded only when needed.
         """
 
         self.db_path = "data/vector_db"
@@ -19,14 +21,27 @@ class VectorStoreManager:
             name="research_documents"
         )
 
-        self.embedding_model = SentenceTransformer(
-            "all-MiniLM-L6-v2"
-        )
+        # Lazy loading
+        self.embedding_model = None
+
+    def get_embedding_model(self):
+        """
+        Load the SentenceTransformer model only when required.
+        """
+
+        if self.embedding_model is None:
+            self.embedding_model = SentenceTransformer(
+                "all-MiniLM-L6-v2"
+            )
+
+        return self.embedding_model
 
     def add_chunks(self, document_id, chunks):
         """
         Store document chunks in ChromaDB.
         """
+
+        model = self.get_embedding_model()
 
         ids = []
         documents = []
@@ -37,7 +52,7 @@ class VectorStoreManager:
 
             text = chunk["text"]
 
-            embedding = self.embedding_model.encode(text).tolist()
+            embedding = model.encode(text).tolist()
 
             ids.append(f"{document_id}_{chunk['chunk_id']}")
 
@@ -63,7 +78,9 @@ class VectorStoreManager:
         Search similar chunks.
         """
 
-        query_embedding = self.embedding_model.encode(query).tolist()
+        model = self.get_embedding_model()
+
+        query_embedding = model.encode(query).tolist()
 
         results = self.collection.query(
             query_embeddings=[query_embedding],
