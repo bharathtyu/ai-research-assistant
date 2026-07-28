@@ -1,0 +1,20 @@
+Chunk ID: 27
+Page Number: 14
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+9 | P a g e 
+ 
+ 
+ 
+Face Recognition 
+On the internet, there are a plethora of face recognition techniques to choose from. Choosing 
+the right technique for the job, on the other hand, is the most difficult part of the project. We 
+began with a deep learning-based local neural network for extracting facial features and 
+computing embeddings. After that, the embeddings were used as a training input for the SVM 
+classifier. The trained model was stored locally and then deployed for recognition later. 
+Although the performance was satisfactory when tested on two individuals, the accuracy 
+dropped as the input dataset grew larger. In addition, we experimented with the local DNN by 
+adding additional convolutional layers, including max pooling and dropout layers, using various 
+optimizers, and altering the DNN’s input image size. We even used a face aligner, and 
+OpenCV’s deep learning libraries for image optimization and pre-processing, and converted the

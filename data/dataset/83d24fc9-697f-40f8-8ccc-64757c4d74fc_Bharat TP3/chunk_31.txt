@@ -1,0 +1,24 @@
+Chunk ID: 31
+Page Number: 15
+
+. (2020). A real-time face emotion 
+classification and recognition using a deep learning model. In Journal of Physics: 
+Conference Series (Vol. 1432, No. 1, p. 012087). IOP Publishing. 
+Kenya Dryland 
+Education Fund  
+VGG-16 
+Accuracy:88.0% 
+5. 
+Singh, A., Bhatt, S., Nayak, V., & Shah, M. (2023). Automation of surveillance 
+systems using deep learning and facial recognition. International Journal of System 
+Assurance Engineering and Management, 14(Suppl 1), 236-245. 
+7500 live 
+images of over 
+26 people, in 
+various light 
+conditions and 
+poses  
+VGGFace  
+model  
+Accuracy:96.0% 
+   .

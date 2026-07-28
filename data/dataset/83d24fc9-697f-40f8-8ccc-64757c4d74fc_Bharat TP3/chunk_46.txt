@@ -1,0 +1,7 @@
+Chunk ID: 46
+Page Number: 22
+
+p. 861-864). IEEE. 
+10. Teoh, K. H., Ismail, R. C., Naziri, S. Z. M., Hussin, R., Isa, M. N. M., & Basir, M. S. S. M. 
+(2021, February). Face recognition and identification using deep learning approach. In 
+Journal of Physics: Conference Series (Vol. 1755, No. 1, p. 012006). IOP Publishing.

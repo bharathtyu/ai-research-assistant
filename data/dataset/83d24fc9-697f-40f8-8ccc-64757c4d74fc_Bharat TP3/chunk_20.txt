@@ -1,0 +1,11 @@
+Chunk ID: 20
+Page Number: 10
+
+an 
+arbitrary real-evaluated scores vector and transforms it into a value vector between 0 and 1 
+that sums up to 1. 
+• ReLU is a non-linear operation that involves units that use the rectifier. It is an element- wise 
+operation which means that it is applied per pixel, reconstituting all the negative values by 
+zero in the feature map. To understand how ReLU operates, we assume that in the literature 
+for neural networks there is a neuron input given as x and from that the rectifier is defined as 
+f(x)= max(0,x).

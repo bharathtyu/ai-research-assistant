@@ -1,0 +1,14 @@
+Chunk ID: 28
+Page Number: 14
+
+N’s input image size. We even used a face aligner, and 
+OpenCV’s deep learning libraries for image optimization and pre-processing, and converted the 
+input images from RGB to grayscale, and YCbCr. Unfortunately, the local DNN was not up 
+to the task of real-time recognition, and the model would mistakenly identify two separate 
+individuals wearing specs as the same person, and a single individual under various lighting 
+circumstances as a different person. 
+ 
+3.5 Face detection using deep learning: An improved faster RCNN approach. 
+ 
+ 
+Fig: Flowchart of the training procedure of the proposed deep learning scheme

@@ -1,0 +1,10 @@
+Chunk ID: 24
+Page Number: 12
+
+odel. 
+ 
+Fig: Block diagram of Face detection and recognition classification 
+The proposed system and its functioning are shown in the figure. The individual functional 
+blocks have their specific operation. The image is captured using an HP 3000 camera which is 
+preprocessed further to feed the neural networks. The captured image is modeled using network 
+architecture to build and train the dataset for identification and emotion classification.

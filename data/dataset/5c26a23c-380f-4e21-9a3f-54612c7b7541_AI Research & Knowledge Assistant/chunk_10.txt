@@ -1,0 +1,31 @@
+Chunk ID: 10
+Page Number: 6
+
+6 
+Prediction API 
+The trained model should automatically classify newly uploaded documents. 
+ 
+4.8 Conversation Memory 
+The assistant should maintain conversational context throughout a user session. 
+Example: 
+User: Summarize Paper A. 
+User: What are its limitations? 
+The assistant should correctly identify that "its" refers to Paper A without requiring the user to 
+repeat the document name. 
+ 
+4.9 Search Modes 
+The application should support multiple search strategies, for example: 
+●​ Keyword Search 
+●​ Semantic Search 
+●​ Hybrid Search (optional) 
+Students should explain when each search strategy is most appropriate. 
+ 
+4.10 Analytics 
+Provide basic analytics about the uploaded knowledge base, for example: 
+●​ Number of uploaded documents 
+●​ Number of processed chunks 
+●​ Total embeddings generated 
+●​ Most queried documents 
+●​ Total questions answered 
+ 
+5. Non-Functional Requirements

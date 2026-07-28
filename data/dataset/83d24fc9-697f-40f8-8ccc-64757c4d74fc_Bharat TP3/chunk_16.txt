@@ -1,0 +1,22 @@
+Chunk ID: 16
+Page Number: 8
+
+of features and classification of emotion. 
+ 
+ 
+2.4 Singh, A., Bhatt, S., Nayak, V., & Shah, M. (2023). Automation of surveillance 
+systems using deep learning and facial recognition. International Journal of System 
+Assurance Engineering and Management, 14(Suppl 1), 236-245. 
+ 
+ 
+• This paper presents a system that can identify and classify individuals in surveillance 
+footage. 
+• Markov Random Filed is used to train a deep generation model of face pictures. 
+ 
+• HOG (Histogram Orientation Gradient) face detector is used. It is a feature 
+descriptor used in computer vision and image processing for object detection 
+• 
+The VGGFace model has higher accuracy. 
+• 
+Labelled Faces in the Wild(LFW) data set is used.It contains over 13,000 images from 
+hundreds of different celebrities.

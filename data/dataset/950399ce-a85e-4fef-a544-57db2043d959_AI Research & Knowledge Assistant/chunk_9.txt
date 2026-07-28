@@ -1,0 +1,39 @@
+Chunk ID: 9
+Page Number: 5
+
+The application should generate: 
+●​ Executive Summary 
+●​ Technical Summary 
+●​ Bullet Point Summary 
+●​ Key Takeaways 
+The summaries should be generated using an LLM. 
+ 
+4.7 TensorFlow Document Classification 
+Train a TensorFlow model capable of classifying uploaded documents into predefined 
+categories. 
+Students may choose appropriate public datasets or prepare their own labelled dataset. 
+Example categories: 
+●​ Artificial Intelligence 
+●​ Machine Learning 
+●​ Computer Vision 
+●​ Natural Language Processing 
+●​ Robotics 
+●​ Cyber Security 
+●​ Cloud Computing 
+The solution should include: 
+Stage 
+Requirement 
+1 
+Data 
+preprocessing 
+2 
+Feature 
+engineering 
+3 
+Model training 
+4 
+Model 
+evaluation 
+5 
+Model 
+persistence

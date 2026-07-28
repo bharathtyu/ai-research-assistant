@@ -1,0 +1,24 @@
+Chunk ID: 8
+Page Number: 5
+
+rning: An Improved Faster RCNN Approach 
+09 
+4. 
+RESULTS AND DISCUSSIONS 
+10-16 
+4.1 Face Recognition Using Machine Learning 
+11 
+4.2 Facial Recognition Using Transfer Learning in the Deep CNN 
+12 
+4.3 A real-time face emotion classification and recognition using a deep learning model 
+13 
+4.4 Automation of surveillance systems using deep learning and facial recognition 
+14 
+4.5 Face Detection using Deep Learning: An Improved Faster RCNN Approach 
+15 
+5. 
+CONCLUSION 
+16 
+6. 
+REFERENCE 
+17

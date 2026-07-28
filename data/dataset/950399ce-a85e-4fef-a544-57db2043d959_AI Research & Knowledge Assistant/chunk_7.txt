@@ -1,0 +1,29 @@
+Chunk ID: 7
+Page Number: 4
+
+3.​ Rank retrieved results 
+4.​ Return the most relevant information 
+The implementation should support searching across multiple uploaded documents. 
+ 
+4.4 AI Question Answering 
+Develop an AI-powered question answering service using Retrieval-Augmented Generation. 
+The assistant should answer questions based only on retrieved document context. 
+The generated response should include: 
+●​ Final Answer 
+●​ Source Document(s) 
+●​ Page Number(s) 
+●​ Retrieved Context 
+●​ Confidence Score (optional) 
+If sufficient information is unavailable, the assistant should clearly communicate that 
+the answer could not be determined from the available documents. 
+ 
+4.5 Document Comparison 
+The assistant should support comparison between two or more uploaded documents. 
+Example use cases: 
+●​ Compare methodologies 
+●​ Compare advantages and disadvantages 
+●​ Identify similarities 
+●​ Identify differences 
+●​ Compare conclusions 
+●​ Compare implementation approaches 
+The response should be generated us

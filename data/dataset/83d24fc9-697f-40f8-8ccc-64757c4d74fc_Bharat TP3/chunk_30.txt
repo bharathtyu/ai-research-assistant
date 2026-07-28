@@ -1,0 +1,44 @@
+Chunk ID: 30
+Page Number: 15
+
+aper 
+ 
+Data set 
+ 
+Methods 
+ 
+Results 
+1. 
+Pandey, Ishan Ratn, Mayank Raj, Kundan Kumar Sah, Tojo Mathew, and M. S. 
+Padmini. "Face Recognition Using Machine Learning." Int. Res. J. Eng. Technol 6 
+(2019): 3772-377 
+Images of 4 
+people taken 
+between 
+2/03/19 to 
+8/03/19 
+Convolution 
+Neural Network 
+Accuracy:98.4% 
+2. 
+Sun, X., Wu, P., & Hoi, S. C. (2018). Face detection using deep learning: An 
+improved faster RCNN approach. Neurocomputing, 299, 42-50. 
+Wider Face data 
+Convolution 
+Neural Network 
+3. 
+Ikromovich , H. O., &  Mamatkulovich , B. B. (2023). FACIAL RECOGNITION 
+USING TRANSFER LEARNING IN THE DEEP CNN. Open Access Repository, 
+4(3), 502-507. 
+Labeled Faces 
+in the wild 
+Fine-tuning pre-
+trained CNN 
+models  
+Fine-tuning VGG-16 achieved 
+higher accuracy than fine-tuning 
+ResNet-50. 
+4. 
+ Hussain, S. A., & Al Balushi, A. S. A. (2020). A real-time face emotion 
+classification and recognition using a deep learning model. In Journal of Physics: 
+Conference Series (Vol. 1432,

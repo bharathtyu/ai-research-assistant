@@ -1,0 +1,5 @@
+Chunk ID: 35
+Page Number: 17
+
+ear classifier on the extracted features. We use logistic 
+regression as the linear classifier and train it with a.

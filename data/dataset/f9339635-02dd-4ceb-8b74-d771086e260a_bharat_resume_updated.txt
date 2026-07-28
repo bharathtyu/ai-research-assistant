@@ -1,0 +1,50 @@
+N BHARAT KUMAR 
+bharathkumarnaram@gmail.com | linkedin.com/in/bharat-kumar-naram-77b936342 | Tekkali, Srikakulam | 7013061129 
+CAREER OBJECTIVE 
+Results-driven IT graduate with a strong foundation in Python and Machine Learning, seeking an entry-level 
+Software Developer or Data/ML Engineer role. Passionate about building scalable and intelligent applications, with a 
+good understanding of developing end-to-end ML systems. Eager to contribute to impactful projects and grow within 
+a dynamic environment. 
+EDUCATION 
+GMR Institute of Technology 
+2021 – 2025 
+B.Tech in Information Technology | CGPA: 8.57 
+Sri Chaitanya Junior College 
+2019 – 2021 
+Intermediate Education | Percentage: 95.3% 
+Aruna Vidhyalayam School 
+2019 
+Secondary Education | CGPA: 9.7 
+TECHNICAL SKILLS AND INTERESTS 
+Programming: C, Python 
+Database Management: SQL (Queries) 
+Web Technologies: HTML, CSS, JavaScript 
+Concepts: OOPs, DBMS 
+Hobbies: Playing Cricket, Travelling 
+INTERNSHIP 
+Attribute-Based Storage with Secure Encryption of Data using Cloud 
+Aug 2024 – Nov 2024 
+HMI Pvt Ltd, Visakhapatnam 
+• Developed an attribute-based storage system with encryption to ensure secure data access in a cloud 
+environment. 
+• Implemented role-based access control using attribute-based encryption to enable secure and 
+restricted data sharing. 
+• Designed a system to prevent unauthorised access and improve data confidentiality. 
+• Integrated multi-layer encryption mechanisms to reduce data breach risks and enhance security. 
+• Performed testing and validation to ensure system performance, accuracy, and reliability. 
+PROJECTS 
+Advanced Fault Diagnosis in Solar Panels: A Deep Learning Approach 
+• Built a fault detection and classification system for solar panels using Convolutional Neural Networks (CNNs) 
+and image processing techniques. 
+• Classified multiple fault types such as dust accumulation, electrical damage, physical cracks, snow coverage, 
+and bird droppings with good accuracy. 
+• Applied image preprocessing and feature extraction techniques to improve model performance and reliability. 
+• Developed a web-based interface to upload images and display fault predictions for better usability. 
+CERTIFICATIONS 
+• Machine Learning with Python – IBM, edX 
+• Google Data Analytics – Coursera 
+• AWS Academy Cloud Foundations – AWS 
+ACHIEVEMENTS 
+• GPL Runner – Recognised as a GPL runner in a prestigious event conducted by GMRIT, 2023 
+• Kabaddi Winners at Mandal Level. 
+

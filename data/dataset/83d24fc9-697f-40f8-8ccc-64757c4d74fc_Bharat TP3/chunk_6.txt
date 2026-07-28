@@ -1,0 +1,10 @@
+Chunk ID: 6
+Page Number: 4
+
+A (Linear 
+Discriminant Analysis). Face recognition has various applications like FRS (Face Recognition 
+System), and mobile phones and it includes security and personalized user experiences. 
+ 
+ 
+Keywords: Face recognition, Deep learning, Machine learning, Computer neural networks, 
+Principal Component Analysis, and Linear Discriminant Analysis.

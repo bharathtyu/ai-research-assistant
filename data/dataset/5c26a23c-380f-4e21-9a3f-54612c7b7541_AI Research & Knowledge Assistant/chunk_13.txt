@@ -1,0 +1,31 @@
+Chunk ID: 13
+Page Number: 8
+
+10. Bonus Features (Optional) 
+Candidates may implement additional features such as: 
+Category 
+Features 
+Security & 
+Access 
+Authentication & Authorization, Multi-user support 
+Retrieval & AI 
+Streaming LLM responses, Hybrid Retrieval (BM25 + Vector Search), 
+Reranking models, Agent-based architecture 
+Document 
+Handling 
+Multi-modal document support (images, tables), OCR for scanned PDFs 
+Engineering 
+Caching, Dockerization, CI/CD Pipeline, Cloud Deployment, Unit & 
+Integration Testing 
+ 
+11. Submission Guidelines 
+●​ Submit the GitHub repository link before the deadline. 
+●​ Ensure the project is fully executable using the provided README. 
+●​ Do not commit API keys or sensitive credentials. 
+●​ Include a .env.example file with placeholder values. 
+●​ The repository should contain all required documentation and assets. 
+ 
+12. Important Note 
+You are encouraged to use publicly available libraries, frameworks, and AI-assisted 
+development tools. 
+However, during the technical intervie

@@ -1,0 +1,10 @@
+Chunk ID: 39
+Page Number: 19
+
+r one was identifed, an accuracy 
+associated with the recognition was generated as well. Furthermore, we used XAMPP to set up 
+a local Apache HTTP server with MySQL as the database management system. If an individual 
+was identifed with a precision of over 80%, the name label and a unique timestamp were sent to 
+the database. Our algorithm was designed to run for a specifc amount of time, hence, the last 
+recorded entry of every unique individual identifed by the system was pulled from the database 
+and saved in an excel fle on the local computer before the system was terminated.

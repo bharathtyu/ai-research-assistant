@@ -1,0 +1,21 @@
+Chunk ID: 13
+Page Number: 7
+
+cted 
+layer with softmax activation for classification. 
+• Accuracy of Convolutional Neural Networks is 98.4% 
+ 
+2.2 Ikromovich, H. O., & Mamatkulovich, B. B. (2023). FACIAL RECOGNITION USING 
+TRANSFER   LEARNING   IN   THE   DEEP   CNN.   Open   Access Repository, 4(3), 
+502-507 
+ 
+ 
+• This approach aims to improve the accuracy of Facial Recognition models using Transfer 
+Learning. 
+• In this paper Fine-tuning pre-trained CNN models achieved higher accuracy than feature 
+extraction with a linear classifier. 
+• Labeled Faces in the Wild (LFW) dataset contains over 13,000 face images of 5,749 
+individuals. 
+• Fine-tuning VGG-16 achieved higher accuracy than fine-tuning ResNet-50. 
+• Process of face recognition and classification involves various steps such as preprocessing, 
+detection, orientation, extraction of features and classification of emotion.

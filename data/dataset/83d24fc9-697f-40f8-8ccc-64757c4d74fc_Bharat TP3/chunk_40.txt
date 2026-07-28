@@ -1,0 +1,26 @@
+Chunk ID: 40
+Page Number: 20
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+15 | P a g e 
+ 
+ 
+ 
+4.5 Face detection using deep learning: An improved faster RCNN approach. 
+ 
+ 
+Fig:1 
+Fig:2 
+Fig:3 
+ 
+In addition to the quantitative evaluation results, we also randomly choose some qualitative 
+results of face detection examples for different cases, as shown in Fig1, Fig2, and Fig3. For 
+example, Fig 1 demonstrates that our model can detect some difficult cases, such as non- frontal 
+faces, heavily occluded faces, faces with low resolution, and faces with extreme poses and/or 
+illumination. Fig 2 lists some selected false positives, where it seems that most of the false 
+positives are missing annotations. Fig 3 lists some of the false negatives, which include some 
+very challenging cases, such as blur faces, heavily occluded faces, and extremely small faces. 
+ 
+In this work, we proposed a new method for face detection using deep learning techniques. 
+Specifically, we extended the state-of-the-art Faster RCNN framework for generi

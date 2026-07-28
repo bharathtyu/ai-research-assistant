@@ -1,0 +1,10 @@
+Chunk ID: 33
+Page Number: 16
+
+with a non-linearity. 
+ 
+The prominent features of the proposed algorithm is that it uses batch normalization for the 
+outputs of the first and final convolution layers and higher accuracy rates are achieved by the 
+network. Softmax Classifier is used to classify the faces in a fully connected layer step. Our 
+Face Database tested the performance of the proposed algorithm. The results showed 
+satisfactory rates of recognition according to literature studies.

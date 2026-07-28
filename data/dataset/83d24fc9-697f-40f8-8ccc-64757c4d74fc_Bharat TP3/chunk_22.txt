@@ -1,0 +1,10 @@
+Chunk ID: 22
+Page Number: 11
+
+ame dataset. 
+We conduct experiments on two facial recognition datasets: LFW (Labeled Faces in the Wild) 
+and CelebA. LFW contains 13,000 images of 5,749 people, and CelebA contains 202,599 
+images of 10,177 celebrities. We use VGG-16 and ResNet-50 as pretrained CNN models for 
+feature extraction and fine-tuning, respectively. We compare the performance of fine-tuning and 
+feature extraction with a linear classifier, and we vary the number of training samples from 50 
+to 5,000.

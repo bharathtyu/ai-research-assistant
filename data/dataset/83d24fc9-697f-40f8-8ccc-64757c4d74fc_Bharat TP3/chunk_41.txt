@@ -1,0 +1,12 @@
+Chunk ID: 41
+Page Number: 20
+
+posed a new method for face detection using deep learning techniques. 
+Specifically, we extended the state-of-the-art Faster RCNN framework for generic object 
+detection, and proposed several effective strategies for improving the Faster RCNN algorithm 
+for resolving face detection tasks, including feature concatenation, multi-scale training, hard 
+negative mining, and proper configuration of anchor sizes for RPN, etc. We conducted an 
+extensive set of experiments on the well-known FDDB testbed for face detection benchmark, 
+and achieved the state-of-the-art results which ranked the best among all the published methods. 
+Future work will further address the efficiency and scalability of the proposed method for real-
+time face detection.

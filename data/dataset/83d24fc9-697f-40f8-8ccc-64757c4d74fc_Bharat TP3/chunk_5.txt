@@ -1,0 +1,19 @@
+Chunk ID: 5
+Page Number: 4
+
+III | P a g e 
+ 
+ABSTRACT 
+ 
+ 
+Most of the things in this world have become automated because of technological 
+improvements. Face recognition is a popular application in machine learning that aims to 
+identify and verify individuals based on their facial features. This paper explores an overview 
+of key methodologies in face recognition by using machine learning. It involves extracting key 
+facial attributes such as positions of the nose, eyes, mouth, and ear by using different algorithms 
+we used to compare and match these features with a database of known faces. This process 
+typically includes steps like face detection, feature extraction, and classification. Popular 
+techniques used in face recognition include deep learning models like CNNs (Convolutional 
+Neural Networks) and algorithms like PCA (Principal Component Analysis) and LDA (Linear 
+Discriminant Analysis). Face recognition has various applications like FRS (Face Recognition 
+System), and mobile phones and it includes se

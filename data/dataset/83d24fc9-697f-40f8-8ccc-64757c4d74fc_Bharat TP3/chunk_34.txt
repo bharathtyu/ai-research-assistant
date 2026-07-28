@@ -1,0 +1,27 @@
+Chunk ID: 34
+Page Number: 17
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+12 | P a g e 
+ 
+ 
+ 
+ 
+4.2 FACIAL RECOGNITION USING TRANSFER LEARNING IN THE DEEP 
+CNN 
+ 
+ 
+Accuracy vs Number of Training Samples 
+ 
+ 
+Comparison of the accuracy of facial recognition models using different transfer learning 
+methods with varying numbers of training samples. Fine-tuning and feature extraction 
+achieved high accuracy even with a small number of training samples while training from 
+scratch required a larger number of training samples to achieve comparable accuracy. 
+ 
+For fine-tuning, we freeze the first few layers of the pre-trained CNN model and finetune the 
+remaining layers on the facial recognition task. We use a learning rate of and train the model 
+for 20 epochs with a batch size of 32. For feature extraction, we extract the features from the 
+pre-trained CNN model and train a linear classifier on the extracted features. We use logistic 
+regression as the linear classifier and train it with a.

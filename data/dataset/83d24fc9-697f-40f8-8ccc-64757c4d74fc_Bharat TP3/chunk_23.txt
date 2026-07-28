@@ -1,0 +1,28 @@
+Chunk ID: 23
+Page Number: 12
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+7 | P a g e 
+ 
+ 
+ 
+ 
+3.3 A real-time face emotion classification 
+and recognition using a deep learning 
+Model 
+ 
+ 
+Fig: Face detection and recognition flow chart 
+ 
+ 
+The Real-time face detection, recognition, and classification is depicted in the figure. The 
+captured image is bounded in a box and converted into a binary pattern to specify it as a feature 
+vector and stored in a database. The images are trained to match the input image and also classify 
+the expression of facial features as sad, angry, happy, disgusted, and neutral. In the training 
+process, there are a total of seven steps which are represented below loading the dataset, 
+preprocessing, augmenting the data as a feature vector, building and compiling the design model, 
+training and storing the feature vector, and validating the test model. 
+ 
+Fig: Block diagram of Face detection and recognition classification 
+The proposed system and its functioning are shown in the figure. The ind

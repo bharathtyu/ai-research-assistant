@@ -1,0 +1,26 @@
+Chunk ID: 3
+Page Number: 2
+
+The application should demonstrate strong software engineering practices while integrating 
+modern AI technologies such as embeddings, vector databases, Large Language Models, and 
+Retrieval-Augmented Generation. 
+ 
+3. Problem Statement 
+You have been hired to build an AI-powered research assistant for an organization that 
+maintains a large collection of technical documents. 
+The organization requires a system capable of: 
+# 
+Capability 
+1 Understanding multiple uploaded documents 
+2 Retrieving relevant information using semantic search 
+3 Generating accurate responses supported by citations 
+4 Comparing information across multiple documents 
+5 Summarizing lengthy documents 
+6 Classifying documents into predefined categories 
+7 Maintaining conversation context during user interactions 
+The application should expose REST APIs and be designed using clean, modular, and scalable 
+architecture. 
+ 
+4. Functional Requirements 
+4.1 Document Management 
+The application should provide functiona

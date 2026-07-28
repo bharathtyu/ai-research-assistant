@@ -1,0 +1,13 @@
+Chunk ID: 14
+Page Number: 8
+
+Note 
+You are encouraged to use publicly available libraries, frameworks, and AI-assisted 
+development tools. 
+However, during the technical interview, you will be expected to: 
+●​ Explain your implementation 
+●​ Justify design decisions 
+●​ Modify portions of your code 
+The evaluation will prioritize your understanding of the system, code quality, 
+architectural decisions, and problem-solving approach over the use of any 
+specific library or framework.

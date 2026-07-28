@@ -1,0 +1,13 @@
+Chunk ID: 4
+Page Number: 2
+
+ned using clean, modular, and scalable 
+architecture. 
+ 
+4. Functional Requirements 
+4.1 Document Management 
+The application should provide functionality to manage documents. 
+Required Features 
+●​ Upload one or more PDF documents 
+●​ Store document metadata 
+●​ List all uploaded documents

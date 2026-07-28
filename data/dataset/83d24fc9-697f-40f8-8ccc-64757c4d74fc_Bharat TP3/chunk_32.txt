@@ -1,0 +1,26 @@
+Chunk ID: 32
+Page Number: 16
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+11 | P a g e 
+ 
+ 
+4.1 Face Recognition Using Machine Learning. 
+ 
+ 
+ 
+ 
+Our face database contains images of 4 people taken at different times with different lighting 
+conditions taken between 2/03/2019 to 8/03/19. Each individual in the database is represented 
+by a hundred colored JPEG images with cluttered backgrounds taken at 640 pixels resolution. 
+In these images, the average size of the faces is 150bis150 pixels. The pictures show frontal 
+and/or inclined faces with different conditions of lighting and scale. 
+ 
+CNNs are a category of neural networks that are highly effective in areas such as face recognition 
+and classification. CNNs are a type of feed-forward, multilayered neural network. CNNs consist 
+of neurons with learning weights. Each filter takes certain inputs, converts and follows them 
+with a non-linearity. 
+ 
+The prominent features of the proposed algorithm is that it uses batch normalization for the 
+outputs of the first and fina

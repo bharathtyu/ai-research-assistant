@@ -1,0 +1,17 @@
+Chunk ID: 45
+Page Number: 22
+
+236-245. 
+5. Sun, X., Wu, P., & Hoi, S. C. (2018). Face detection using deep learning: An improved faster 
+RCNN approach. Neurocomputing, 299, 42-50 
+6. Zhao, F., Li, J., Zhang, L., Li, Z., & Na, S. G. (2020). Multi-view face recognition using deep 
+neural networks. Future Generation Computer Systems, 111, 375-380. 
+7. Gwyn, T., Roy, K., & Atay, M. (2021). Face recognition using popular deep net architectures: 
+A brief comparative study. Future Internet, 13(7), 164. 
+8. Almabdy , S., & Elrefaei , L. (2019). Deep convolutional neural network-based approaches 
+for face recognition. Applied Sciences, 9(20), 4397. 
+9. Prakash, R. M., Thenmoezhi, N., & Gayathri, M. (2019, November). Face recognition with 
+convolutional neural network and transfer learning. In 2019 International Conference on 
+Smart Systems and Inventive Technology (ICSSIT) (pp. 861-864). IEEE. 
+10. Teoh, K. H., Ismail, R. C., Naziri, S. Z. M., Hussin, R., Isa, M. N. M., & Basir, M. S. S. M. 
+(2021, February). Face recognit

@@ -1,0 +1,11 @@
+Chunk ID: 8
+Page Number: 4
+
+●​ Identify similarities 
+●​ Identify differences 
+●​ Compare conclusions 
+●​ Compare implementation approaches 
+The response should be generated using information retrieved from all selected documents. 
+ 
+4.6 Document Summarization 
+Provide document summarization capabilities.

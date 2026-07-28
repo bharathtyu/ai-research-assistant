@@ -1,0 +1,35 @@
+Chunk ID: 5
+Page Number: 3
+
+●​ Delete uploaded documents 
+●​ Reprocess documents when required 
+Document Metadata 
+Each uploaded document should maintain information such as: 
+Field 
+Description 
+Document ID 
+Unique identifier for the document 
+Document Name 
+Original file / display name 
+Upload Timestamp Date and time of upload 
+Total Pages 
+Page count of the source PDF 
+Total Chunks 
+Number of chunks produced by the pipeline 
+Processing Status 
+Current state of the processing pipeline 
+ 
+4.2 Document Processing Pipeline 
+Each uploaded document should automatically undergo preprocessing. 
+The processing pipeline should include: 
+1.​ Text extraction 
+2.​ Data cleaning 
+3.​ Intelligent text chunking 
+4.​ Embedding generation 
+5.​ Vector database indexing 
+Students should choose an appropriate chunking strategy and justify their 
+implementation in the documentation. 
+ 
+4.3 Semantic Search 
+The application should support semantic retrieval instead of simple keyword matching. 
+Given a user query, the system should:

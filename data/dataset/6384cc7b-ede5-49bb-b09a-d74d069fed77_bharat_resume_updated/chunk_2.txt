@@ -1,0 +1,23 @@
+Chunk ID: 2
+Page Number: 1
+
+s) 
+Web Technologies: HTML, CSS, JavaScript 
+Concepts: OOPs, DBMS 
+Hobbies: Playing Cricket, Travelling 
+INTERNSHIP 
+Attribute-Based Storage with Secure Encryption of Data using Cloud 
+Aug 2024 – Nov 2024 
+HMI Pvt Ltd, Visakhapatnam 
+• Developed an attribute-based storage system with encryption to ensure secure data access in a cloud 
+environment. 
+• Implemented role-based access control using attribute-based encryption to enable secure and 
+restricted data sharing. 
+• Designed a system to prevent unauthorised access and improve data confidentiality. 
+• Integrated multi-layer encryption mechanisms to reduce data breach risks and enhance security. 
+• Performed testing and validation to ensure system performance, accuracy, and reliability. 
+PROJECTS 
+Advanced Fault Diagnosis in Solar Panels: A Deep Learning Approach 
+• Built a fault detection and classification system for solar panels using Convolutional Neural Networks (CNNs) 
+and image processing techniques. 
+• Classified multiple faul

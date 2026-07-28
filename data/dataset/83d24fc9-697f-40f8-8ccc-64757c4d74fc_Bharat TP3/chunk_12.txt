@@ -1,0 +1,27 @@
+Chunk ID: 12
+Page Number: 7
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+2 | P a g e 
+ 
+ 
+2. LITERATURE SURVEY 
+ 
+The following research papers are studied in detail to understand the proposed 
+recommendation technique and experimental result for predicting the output. 
+2.1. Pandey, Ishan Ratn, Mayank Raj, Kundan Kumar Sah, Tojo Mathew, and M. S. 
+Padmini. "Face Recognition Using Machine Learning." Int. Res. J. Eng. Technol 6 
+(2019): 3772-377 
+ 
+ 
+• This paper proposes a developed CNN model by adding Batch Normalization. 
+• To obtain a powerful high accuracy recognition algorithm. 
+• Images of 4 people taken at different times with different lighting conditions taken between 
+2/03/2019 to 8/03/19. 
+• SoftMax Classifier is used to classify the faces in a fully connected layer step. 
+• It extracted the features from the trained CNN and feeding them as input to the Fully connected 
+layer with softmax activation for classification. 
+• Accuracy of Convolutional Neural Networks is 98.4% 
+ 
+2.2 Ikromovich, H. O., & Mamatkulovic

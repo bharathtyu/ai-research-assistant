@@ -1,0 +1,35 @@
+Chunk ID: 2
+Page Number: 2
+
+I | P a g e 
+ 
+ 
+GMR INSTITUTE OF TECHNOLOGY 
+An Autonomous institute, affiliated to JNTU-GV, VIZIANAGRAM 
+ 
+ 
+DEPARTMENT OF INFORMATION TECHNOLOGY 
+CERTIFICATE 
+ 
+This is to certify that the term paper report titled “Face Recognition Using 
+Machine Learning” submitted by Naram Bharat Kumar bearing 21341A1285 
+has been carried out in partial fulfillment for the award of B. Tech. degree in IT 
+to JNTU-GV is a record of bonafide work carried out under our guidance and 
+supervision. The report embodied in this paper has not been submitted to any 
+other universities or institutions for the award of any degree or diploma. 
+ 
+ 
+ 
+ 
+ 
+Signature of the Supervisor 
+Signature of the H.O.D 
+ 
+Mr. M. Hari Krishna, 
+Dr. V. Vasudha Rani 
+Asst. Professor, 
+Associate Professor & HOD 
+Department of IT, 
+Department of IT 
+GMRIT, Rajam. 
+GMRIT, Rajam.

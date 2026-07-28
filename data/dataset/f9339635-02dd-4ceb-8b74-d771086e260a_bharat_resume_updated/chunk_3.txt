@@ -1,0 +1,16 @@
+Chunk ID: 3
+Page Number: 1
+
+on and classification system for solar panels using Convolutional Neural Networks (CNNs) 
+and image processing techniques. 
+• Classified multiple fault types such as dust accumulation, electrical damage, physical cracks, snow coverage, 
+and bird droppings with good accuracy. 
+• Applied image preprocessing and feature extraction techniques to improve model performance and reliability. 
+• Developed a web-based interface to upload images and display fault predictions for better usability. 
+CERTIFICATIONS 
+• Machine Learning with Python – IBM, edX 
+• Google Data Analytics – Coursera 
+• AWS Academy Cloud Foundations – AWS 
+ACHIEVEMENTS 
+• GPL Runner – Recognised as a GPL runner in a prestigious event conducted by GMRIT, 2023 
+• Kabaddi Winners at Mandal Level.

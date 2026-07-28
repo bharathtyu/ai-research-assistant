@@ -1,0 +1,24 @@
+Chunk ID: 44
+Page Number: 22
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+17 | P a g e 
+ 
+ 
+ 
+6. REFERENCES 
+ 
+ 
+1. Pandey, Ishan Ratn, Mayank Raj, Kundan Kumar Sah, Tojo Mathew, and M. S. Padmini. 
+"Face Recognition Using Machine Learning." Int. Res. J. Eng. Technol 6 (2019): 3772- 3776. 
+2. Ikromovich, H. O., & Mamatkulovich, B. B. (2023). FACIAL RECOGNITION USING 
+TRANSFER LEARNING IN THE DEEP CNN. Open Access Repository, 4(3), 502-507 
+3. Hussain, S. A., & Al Balushi, A. S. A. (2020). A real-time face emotion classification and 
+recognition using a deep learning model. In Journal of Physics: Conference Series (Vol. 
+1432, No. 1, p. 012087). IOP Publishing. 
+4. Singh, A., Bhatt, S., Nayak, V., & Shah, M. (2023). Automation of surveillance systems using 
+deep learning and facial recognition. International Journal of System Assurance Engineering 
+and Management, 14(Suppl 1), 236-245. 
+5. Sun, X., Wu, P., & Hoi, S. C. (2018). Face detection using deep learning: An improved faster 
+RCNN approach. Neurocomputing, 299, 42-50

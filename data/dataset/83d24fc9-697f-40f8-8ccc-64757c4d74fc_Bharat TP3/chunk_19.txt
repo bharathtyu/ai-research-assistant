@@ -1,0 +1,16 @@
+Chunk ID: 19
+Page Number: 10
+
+ch as average is used to down-sample each region. 
+This layer achieves better generalization, faster convergence, robust translation and 
+distortion, and is usually placed between layers of convolution. 
+• The term Fully Connected Layer (FCL) refers to each filter connected in the next layer in 
+the previous layer. The output from the layers of convolution, pooling, and ReLU are 
+incarnation of the input image's high-level features. The aim of using the FCL is to use these 
+features to classify the input image into different classes based on the training dataset. FCL 
+is considered to be the final layer of pooling feeding the features to a classifier using the 
+activation function of Softmax. The sum of Fully Connected Layer's output probabilities is 1. 
+Using the Softmax as the activation function ensures this. The Softmax function takes an 
+arbitrary real-evaluated scores vector and transforms it into a value vector between 0 and 1 
+that sums up to 1. 
+• ReLU is a non-linear operatio

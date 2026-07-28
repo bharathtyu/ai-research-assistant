@@ -1,0 +1,764 @@
+ 
+ 
+ 
+ 
+Face Recognition Using Machine Learning 
+ 
+A Term Paper Report Submitted in Partial Fulfillment for the Award of the 
+Degree 
+BACHELOR OF TECHNOLOGY 
+IN 
+INFORMATION TECHNOLOGY 
+Submitted 
+By 
+Naram Bharat Kumar 
+(21341A1285) 
+Under the Esteemed Guidance of 
+Mr. M. Hari Krishna 
+Assistant Professor 
+November 2023 
+DEPARTMENT OF INFORMATION TECHNOLOGY 
+GMR INSTITUTE OF TECHNOLOGY 
+An Autonomous institute, affiliated to JNTU-GV, VIZIANAGARAM 
+(Accredited by NBA, NAAC with ‘A’ Grade & ISO 9001:2015 Certified Institution) 
+G.M.R. Nagar, Rajam-532127, A.P 
+2023-2024 
+
+I | P a g e 
+ 
+ 
+GMR INSTITUTE OF TECHNOLOGY 
+An Autonomous institute, affiliated to JNTU-GV, VIZIANAGRAM 
+ 
+ 
+DEPARTMENT OF INFORMATION TECHNOLOGY 
+CERTIFICATE 
+ 
+This is to certify that the term paper report titled “Face Recognition Using 
+Machine Learning” submitted by Naram Bharat Kumar bearing 21341A1285 
+has been carried out in partial fulfillment for the award of B. Tech. degree in IT 
+to JNTU-GV is a record of bonafide work carried out under our guidance and 
+supervision. The report embodied in this paper has not been submitted to any 
+other universities or institutions for the award of any degree or diploma. 
+ 
+ 
+ 
+ 
+ 
+Signature of the Supervisor 
+Signature of the H.O.D 
+ 
+Mr. M. Hari Krishna, 
+Dr. V. Vasudha Rani 
+Asst. Professor, 
+Associate Professor & HOD 
+Department of IT, 
+Department of IT 
+GMRIT, Rajam. 
+GMRIT, Rajam. 
+
+II | P a g e 
+ 
+ 
+ACKNOWLEDGEMENT 
+ 
+ 
+It gives me immense pleasure to express a deep sense of gratitude 
+to my guide, Mr. M. Hari Krishna, Assistant Professor, Department of 
+Information Technology, for wholehearted and invaluable guidance throughout 
+the report. Without his sustained and sincere effort, this report would not have 
+taken this shape. He encouraged and helped me overcome various difficulties I 
+faced at various stages of my report. 
+ 
+I would like to sincerely thank Dr. V. VASUDHA RANI, 
+Associate Professor & HOD, Department of Information Technology, for 
+providing all the necessary facilities that led to the successful completion of my 
+report. 
+I then take the privilege to thank our Principal Dr. C.L.V.R.S.V. 
+Prasad, who has made the atmosphere so easy to work in. I shall always be 
+indebted to them. 
+I would like to thank all the faculty members of the Department of 
+Information Technology for their direct or indirect support and also all the lab 
+technicians for their valuable suggestions and for providing excellent 
+opportunities in the completion of this report. 
+ 
+ 
+ 
+ 
+ 
+ 
+Student name: N. Bharat Kumar 
+JNTU No 
+: 21341A1285 
+
+III | P a g e 
+ 
+ABSTRACT 
+ 
+ 
+Most of the things in this world have become automated because of technological 
+improvements. Face recognition is a popular application in machine learning that aims to 
+identify and verify individuals based on their facial features. This paper explores an overview 
+of key methodologies in face recognition by using machine learning. It involves extracting key 
+facial attributes such as positions of the nose, eyes, mouth, and ear by using different algorithms 
+we used to compare and match these features with a database of known faces. This process 
+typically includes steps like face detection, feature extraction, and classification. Popular 
+techniques used in face recognition include deep learning models like CNNs (Convolutional 
+Neural Networks) and algorithms like PCA (Principal Component Analysis) and LDA (Linear 
+Discriminant Analysis). Face recognition has various applications like FRS (Face Recognition 
+System), and mobile phones and it includes security and personalized user experiences. 
+ 
+ 
+Keywords: Face recognition, Deep learning, Machine learning, Computer neural networks, 
+Principal Component Analysis, and Linear Discriminant Analysis. 
+
+INDEX 
+CONTENTS 
+PAGE NO 
+I. 
+ACKNOWLEDGEMENT 
+I 
+II. 
+ABSTRACT 
+II 
+1. 
+INTRODUCTION 
+01 
+2. 
+LITERATURE SURVEY 
+02-04 
+2.1 Face Recognition Using Machine Learning 
+02 
+2.2 Facial Recognition Using Transfer Learning in the Deep CNN 
+02 
+2.3 A real-time face emotion classification and recognition using a deep learning model 
+03 
+2.4 Automation of surveillance systems using deep learning and facial recognition 
+03 
+2.5 Face Detection using Deep Learning: An Improved Faster RCNN Approach 
+04 
+3. 
+METHODOLOGY 
+04-10 
+3.1 Face Recognition Using Machine Learning 
+04 
+3.2 Facial Recognition Using Transfer Learning in the Deep CNN 
+06 
+3.3 A real-time face emotion classification and recognition using a deep learning model 
+07 
+3.4 Automation of surveillance systems using deep learning and facial recognition 
+08 
+3.5 Face Detection using Deep Learning: An Improved Faster RCNN Approach 
+09 
+4. 
+RESULTS AND DISCUSSIONS 
+10-16 
+4.1 Face Recognition Using Machine Learning 
+11 
+4.2 Facial Recognition Using Transfer Learning in the Deep CNN 
+12 
+4.3 A real-time face emotion classification and recognition using a deep learning model 
+13 
+4.4 Automation of surveillance systems using deep learning and facial recognition 
+14 
+4.5 Face Detection using Deep Learning: An Improved Faster RCNN Approach 
+15 
+5. 
+CONCLUSION 
+16 
+6. 
+REFERENCE 
+17 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+1 | P a g e 
+ 
+ 
+1. INTRODUCTION 
+ 
+Face recognition using machine learning is a technology that uses algorithms to identify 
+and verify people's faces. It involves training a model with a large dataset of labelled faces 
+and then using that model to recognize and match faces in real-time. Face Recognition is a 
+category of biometric software that maps individual facial features and stores the data as a 
+face print. Both Machine Learning and Image Processing are the backbones of Face 
+Recognition. Convolution Neural Network in Face Recognition is the widely used 
+algorithm. CNN is a type of deep-learning neural network consisting of five layers. Input, 
+Convolution, Pooling, Fully Connected, and Output layer. The role of the Convolution layer 
+is to apply some learnable filters to the original image to extract the feature from a given 
+dataset. The pooling layer down samples the image to reduce the computation and the fully 
+connected layer makes the final prediction. 
+ 
+In the era of rapid technological evolution, the automation of various facets of daily life has 
+become ubiquitous, driven by continuous improvements in machine learning. Among the 
+prominent applications, face recognition stands out as a transformative technology aimed 
+at identifying and verifying individuals based on their unique facial features. This paper 
+presents a comprehensive overview of key methodologies employed in face recognition 
+using machine learning techniques. In essence, this paper serves as a comprehensive guide 
+to the multifaceted realm of face recognition through machine learning, offering valuable 
+insights into the intricacies of algorithmic approaches, their applications, and the evolving 
+landscape of this transformative technology. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+2 | P a g e 
+ 
+ 
+2. LITERATURE SURVEY 
+ 
+The following research papers are studied in detail to understand the proposed 
+recommendation technique and experimental result for predicting the output. 
+2.1. Pandey, Ishan Ratn, Mayank Raj, Kundan Kumar Sah, Tojo Mathew, and M. S. 
+Padmini. "Face Recognition Using Machine Learning." Int. Res. J. Eng. Technol 6 
+(2019): 3772-377 
+ 
+ 
+• This paper proposes a developed CNN model by adding Batch Normalization. 
+• To obtain a powerful high accuracy recognition algorithm. 
+• Images of 4 people taken at different times with different lighting conditions taken between 
+2/03/2019 to 8/03/19. 
+• SoftMax Classifier is used to classify the faces in a fully connected layer step. 
+• It extracted the features from the trained CNN and feeding them as input to the Fully connected 
+layer with softmax activation for classification. 
+• Accuracy of Convolutional Neural Networks is 98.4% 
+ 
+2.2 Ikromovich, H. O., & Mamatkulovich, B. B. (2023). FACIAL RECOGNITION USING 
+TRANSFER   LEARNING   IN   THE   DEEP   CNN.   Open   Access Repository, 4(3), 
+502-507 
+ 
+ 
+• This approach aims to improve the accuracy of Facial Recognition models using Transfer 
+Learning. 
+• In this paper Fine-tuning pre-trained CNN models achieved higher accuracy than feature 
+extraction with a linear classifier. 
+• Labeled Faces in the Wild (LFW) dataset contains over 13,000 face images of 5,749 
+individuals. 
+• Fine-tuning VGG-16 achieved higher accuracy than fine-tuning ResNet-50. 
+• Process of face recognition and classification involves various steps such as preprocessing, 
+detection, orientation, extraction of features and classification of emotion. 
+ 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+3 | P a g e 
+ 
+ 
+ 
+2.3 Hussain, S. A., & Al Balushi, A. S. A. (2020). A real-time face emotion classification 
+and recognition using a deep learning model. In Journal of Physics: Conference Series 
+(Vol.1432, No. 1, p. 012087). IOP Publishing. 
+ 
+ 
+• 
+This paper proposes and investigates the Softmax function which is used to obtain and 
+classify the image between 0 and 1. 
+• 
+The Kenya Dryland Education Fund data set is used. 
+ 
+• 
+Facial recognition is built with the Convolutional Neural Network model where the 
+facial features are extracted and classified as per VGG 16 model. 
+• 
+The performance measures are validated with the CNN model designed with an 
+accuracy of 88%. 
+• 
+Process of face recognition and classification involves various steps such as preprocessing, 
+detection, orientation, extraction of features and classification of emotion. 
+ 
+ 
+2.4 Singh, A., Bhatt, S., Nayak, V., & Shah, M. (2023). Automation of surveillance 
+systems using deep learning and facial recognition. International Journal of System 
+Assurance Engineering and Management, 14(Suppl 1), 236-245. 
+ 
+ 
+• This paper presents a system that can identify and classify individuals in surveillance 
+footage. 
+• Markov Random Filed is used to train a deep generation model of face pictures. 
+ 
+• HOG (Histogram Orientation Gradient) face detector is used. It is a feature 
+descriptor used in computer vision and image processing for object detection 
+• 
+The VGGFace model has higher accuracy. 
+• 
+Labelled Faces in the Wild(LFW) data set is used.It contains over 13,000 images from 
+hundreds of different celebrities. 
+ 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+4 | P a g e 
+ 
+ 
+ 
+2.5 Sun, X., Wu, P., & Hoi, S. C. (2018). Face detection using deep learning: An 
+improved faster RCNN approach. Neurocomputing, 299, 42-50 
+ 
+ 
+• In this paper Convolution Neural Network (CNN) and VGG16 models are used. 
+• Histogram Orientation Gradient (HOG), Scale Invariant Feature Transform(SIFT), 
+Speed Up Robust Feature(SIFT), and Aggregate Channel Feature(ACF) face detectors 
+are used. 
+• The author of this paper Proposed Recurrent Neural Network Architecture for Face 
+Detection. 
+• 
+A Wider Face data set is used. 
+• The proposed face recognition system is robust against various face presentation attacks, such 
+as printed paper, video replay, and silicone masks. 
+ 
+ 
+3. METHODOLOGY 
+ 
+ 
+3.1 Face Recognition Using Machine Learning 
+ 
+ 
+ 
+ 
+Fig1: Block Diagram of CNN 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+5 | P a g e 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Layers of CNN: 
+• The convolution layer performs the core building block of a Convolutionary Network that 
+performs most of the heavy-lifting computations. The convolution layer's main purpose is to 
+extract features from the image-based input data. By learning image features using small 
+squares of input image, Convolution preserves the spatial relationship between pixels. Using 
+a set of learnable neurons, the input image is compressed. This creates a feature map in the 
+output image and then feeds the feature maps to the next convolution layer as input data. 
+• The pooling layer reduces each activation map's dimensionality but still has the most 
+important information. The images input are divided into a set of rectangles that are not 
+overlapping. A non-linear operation such as average is used to down-sample each region. 
+This layer achieves better generalization, faster convergence, robust translation and 
+distortion, and is usually placed between layers of convolution. 
+• The term Fully Connected Layer (FCL) refers to each filter connected in the next layer in 
+the previous layer. The output from the layers of convolution, pooling, and ReLU are 
+incarnation of the input image's high-level features. The aim of using the FCL is to use these 
+features to classify the input image into different classes based on the training dataset. FCL 
+is considered to be the final layer of pooling feeding the features to a classifier using the 
+activation function of Softmax. The sum of Fully Connected Layer's output probabilities is 1. 
+Using the Softmax as the activation function ensures this. The Softmax function takes an 
+arbitrary real-evaluated scores vector and transforms it into a value vector between 0 and 1 
+that sums up to 1. 
+• ReLU is a non-linear operation that involves units that use the rectifier. It is an element- wise 
+operation which means that it is applied per pixel, reconstituting all the negative values by 
+zero in the feature map. To understand how ReLU operates, we assume that in the literature 
+for neural networks there is a neuron input given as x and from that the rectifier is defined as 
+f(x)= max(0,x). 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+6 | P a g e 
+ 
+ 
+ 
+ 
+ 
+3.2 FACIAL RECOGNITION USING TRANSFER LEARNING IN 
+THE DEEP CNN 
+ 
+ 
+Fig: Pre-trained CNN Model for Facial Recognition 
+ 
+ 
+Example of a pre-trained CNN model used for facial recognition using transfer learning. The 
+pre-trained CNN model is first loaded and the fully connected layers are replaced with new ones. 
+The model is then fine-tuned using a small dataset of facial images to adapt it to the specific 
+facial recognition task. 
+Labeled Faces in the Wild (LFW) dataset, which contains over 13,000 face images of 5,749 
+individuals. We used a deep CNN architecture that consists of convolutional layers, max- 
+pooling layers, and fully connected layers. We compared the performance of our transfer 
+learning approach with that of a baseline CNN that was trained from scratch on the same dataset. 
+We conduct experiments on two facial recognition datasets: LFW (Labeled Faces in the Wild) 
+and CelebA. LFW contains 13,000 images of 5,749 people, and CelebA contains 202,599 
+images of 10,177 celebrities. We use VGG-16 and ResNet-50 as pretrained CNN models for 
+feature extraction and fine-tuning, respectively. We compare the performance of fine-tuning and 
+feature extraction with a linear classifier, and we vary the number of training samples from 50 
+to 5,000. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+7 | P a g e 
+ 
+ 
+ 
+ 
+3.3 A real-time face emotion classification 
+and recognition using a deep learning 
+Model 
+ 
+ 
+Fig: Face detection and recognition flow chart 
+ 
+ 
+The Real-time face detection, recognition, and classification is depicted in the figure. The 
+captured image is bounded in a box and converted into a binary pattern to specify it as a feature 
+vector and stored in a database. The images are trained to match the input image and also classify 
+the expression of facial features as sad, angry, happy, disgusted, and neutral. In the training 
+process, there are a total of seven steps which are represented below loading the dataset, 
+preprocessing, augmenting the data as a feature vector, building and compiling the design model, 
+training and storing the feature vector, and validating the test model. 
+ 
+Fig: Block diagram of Face detection and recognition classification 
+The proposed system and its functioning are shown in the figure. The individual functional 
+blocks have their specific operation. The image is captured using an HP 3000 camera which is 
+preprocessed further to feed the neural networks. The captured image is modeled using network 
+architecture to build and train the dataset for identification and emotion classification. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+8 | P a g e 
+ 
+ 
+3.4 Automation of surveillance systems using deep learning and facial recognition 
+ 
+ 
+ 
+ 
+Face detection 
+In 2017, OpenCV 3.3 was released, which included a much improved DNN module that works 
+with a variety of deep learning frameworks, including Cafe, TensorFlow, and Torch/PyTorch. 
+Most crucially, regardless of where it was generated, the module could be imported and utilized 
+across any framework. The key contributor to the DNN module, Aleksandr Rybnikov, also 
+included a state-of-art face detector based on the Single Shot Detector (SSD) framework with a 
+ResNet base network in the official release of OpenCV which can be found in the face_detector 
+sub-directory of the DNN samples. With the pre- trained weights, faces could be detected in 
+image stills, videos, video streams, and live webcams using the DNN face detector. Moreover, 
+due to its lightweight architecture, it performs admirably in terms of operational speed, and CPU 
+memory consumption stays comparatively low suitable for real-time detection. The input image 
+passed to the face detector is first pre-processed using the DNN library which includes setting 
+the image dimensions and normalization. The confidence is retrieved after each pass of the 
+input image through the neural network, and weak detection is ruled out if the current 
+confidence falls below the set threshold. The collected ROI is then sent through the face 
+recognition pipeline for identification. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+9 | P a g e 
+ 
+ 
+ 
+Face Recognition 
+On the internet, there are a plethora of face recognition techniques to choose from. Choosing 
+the right technique for the job, on the other hand, is the most difficult part of the project. We 
+began with a deep learning-based local neural network for extracting facial features and 
+computing embeddings. After that, the embeddings were used as a training input for the SVM 
+classifier. The trained model was stored locally and then deployed for recognition later. 
+Although the performance was satisfactory when tested on two individuals, the accuracy 
+dropped as the input dataset grew larger. In addition, we experimented with the local DNN by 
+adding additional convolutional layers, including max pooling and dropout layers, using various 
+optimizers, and altering the DNN’s input image size. We even used a face aligner, and 
+OpenCV’s deep learning libraries for image optimization and pre-processing, and converted the 
+input images from RGB to grayscale, and YCbCr. Unfortunately, the local DNN was not up 
+to the task of real-time recognition, and the model would mistakenly identify two separate 
+individuals wearing specs as the same person, and a single individual under various lighting 
+circumstances as a different person. 
+ 
+3.5 Face detection using deep learning: An improved faster RCNN approach. 
+ 
+ 
+Fig: Flowchart of the training procedure of the proposed deep learning scheme 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+10 | P a g e 
+ 
+ 
+ 
+ 
+ 
+Our method follows the similar deep learning framework of Faster RCNN, which is a state-of- 
+the-art deep learning scheme for generic object detection [10]. It essentially consists of two 
+parts: (1) a Region Proposal Network (RPN) for generating a list of region proposals that likely 
+contain objects, or called regions of interest (RoIs); and (2) a Fast RCNN network for classifying 
+a region of image into objects (and background) and refining the boundaries of those regions. 
+In this work, we propose to extend the Faster RCNN architecture for face detection and train 
+our face detection model by following the proposed procedure as shown in Figure. 
+ 
+ 
+4. RESULTS AND DISCUSSIONS                    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+S.No 
+                            
+                               Paper 
+ 
+Data set 
+ 
+Methods 
+ 
+Results 
+1. 
+Pandey, Ishan Ratn, Mayank Raj, Kundan Kumar Sah, Tojo Mathew, and M. S. 
+Padmini. "Face Recognition Using Machine Learning." Int. Res. J. Eng. Technol 6 
+(2019): 3772-377 
+Images of 4 
+people taken 
+between 
+2/03/19 to 
+8/03/19 
+Convolution 
+Neural Network 
+Accuracy:98.4% 
+2. 
+Sun, X., Wu, P., & Hoi, S. C. (2018). Face detection using deep learning: An 
+improved faster RCNN approach. Neurocomputing, 299, 42-50. 
+Wider Face data 
+Convolution 
+Neural Network 
+3. 
+Ikromovich , H. O., &  Mamatkulovich , B. B. (2023). FACIAL RECOGNITION 
+USING TRANSFER LEARNING IN THE DEEP CNN. Open Access Repository, 
+4(3), 502-507. 
+Labeled Faces 
+in the wild 
+Fine-tuning pre-
+trained CNN 
+models  
+Fine-tuning VGG-16 achieved 
+higher accuracy than fine-tuning 
+ResNet-50. 
+4. 
+ Hussain, S. A., & Al Balushi, A. S. A. (2020). A real-time face emotion 
+classification and recognition using a deep learning model. In Journal of Physics: 
+Conference Series (Vol. 1432, No. 1, p. 012087). IOP Publishing. 
+Kenya Dryland 
+Education Fund  
+VGG-16 
+Accuracy:88.0% 
+5. 
+Singh, A., Bhatt, S., Nayak, V., & Shah, M. (2023). Automation of surveillance 
+systems using deep learning and facial recognition. International Journal of System 
+Assurance Engineering and Management, 14(Suppl 1), 236-245. 
+7500 live 
+images of over 
+26 people, in 
+various light 
+conditions and 
+poses  
+VGGFace  
+model  
+Accuracy:96.0% 
+   . 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+11 | P a g e 
+ 
+ 
+4.1 Face Recognition Using Machine Learning. 
+ 
+ 
+ 
+ 
+Our face database contains images of 4 people taken at different times with different lighting 
+conditions taken between 2/03/2019 to 8/03/19. Each individual in the database is represented 
+by a hundred colored JPEG images with cluttered backgrounds taken at 640 pixels resolution. 
+In these images, the average size of the faces is 150bis150 pixels. The pictures show frontal 
+and/or inclined faces with different conditions of lighting and scale. 
+ 
+CNNs are a category of neural networks that are highly effective in areas such as face recognition 
+and classification. CNNs are a type of feed-forward, multilayered neural network. CNNs consist 
+of neurons with learning weights. Each filter takes certain inputs, converts and follows them 
+with a non-linearity. 
+ 
+The prominent features of the proposed algorithm is that it uses batch normalization for the 
+outputs of the first and final convolution layers and higher accuracy rates are achieved by the 
+network. Softmax Classifier is used to classify the faces in a fully connected layer step. Our 
+Face Database tested the performance of the proposed algorithm. The results showed 
+satisfactory rates of recognition according to literature studies. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+12 | P a g e 
+ 
+ 
+ 
+ 
+4.2 FACIAL RECOGNITION USING TRANSFER LEARNING IN THE DEEP 
+CNN 
+ 
+ 
+Accuracy vs Number of Training Samples 
+ 
+ 
+Comparison of the accuracy of facial recognition models using different transfer learning 
+methods with varying numbers of training samples. Fine-tuning and feature extraction 
+achieved high accuracy even with a small number of training samples while training from 
+scratch required a larger number of training samples to achieve comparable accuracy. 
+ 
+For fine-tuning, we freeze the first few layers of the pre-trained CNN model and finetune the 
+remaining layers on the facial recognition task. We use a learning rate of and train the model 
+for 20 epochs with a batch size of 32. For feature extraction, we extract the features from the 
+pre-trained CNN model and train a linear classifier on the extracted features. We use logistic 
+regression as the linear classifier and train it with a. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+13 | P a g e 
+ 
+ 
+ 
+ 
+4.3 A real-time face emotion classification 
+and recognition using deep learning 
+Model 
+ 
+ 
+Fig: Sample KDEF data set (KDEF | The Kenya Dryland Education Fund 2019) 
+ 
+Building a dataset to classify emotion using a convolution neural network layer. 
+ 
+The Kenya Dryland Education Fund data set as in the figure has 4900 pictures whereas 1999 
+pictures were removed as they were in side postures and the dataset with 2901 pictures by 
+splitting and training the dataset into 70 % and 30% respectively. Similarly to my images, my 
+dataset was also created with 100 images. 
+ 
+The captured image is bounded in a box and converted into the binary pattern to specify it as a 
+feature vector and stored in a database. The images are trained to match the input image and 
+also classify the expression of facial features as sad, angry, happy, disgusted, and neutral. In the 
+training process, there are seven steps represented below loading the dataset, preprocessing, 
+augmenting the data as a feature vector, building and compiling the design model, training and 
+storing the feature vector, and validating the test model. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+14 | P a g e 
+ 
+ 
+ 
+ 
+ 
+4.4 Automation of surveillance systems using deep learning and facial recognition 
+ 
+ 
+ 
+ 
+ 
+With our original dataset, we evaluated numerous neural models, including VGG16, a 16- 
+layer neural network that won the Imagenet competition in 2014, VGG19, which has 19 layers, 
+VGGFace, which is based on VGG16, Inception v3 with 48 layers, and ResNet-50, which has 
+50 deep layers. Every model was re-trained by keeping the top layers and adding activation and 
+dropout layers as appropriate. As a result of employing pre-trained weights and neural 
+architecture, we were successful in improving the accuracy of our face recognition system. 
+The facial recognition model received live input from the surveillance camera. The model was 
+trained to recognize 26 distinct individuals, and whenever one was identifed, an accuracy 
+associated with the recognition was generated as well. Furthermore, we used XAMPP to set up 
+a local Apache HTTP server with MySQL as the database management system. If an individual 
+was identifed with a precision of over 80%, the name label and a unique timestamp were sent to 
+the database. Our algorithm was designed to run for a specifc amount of time, hence, the last 
+recorded entry of every unique individual identifed by the system was pulled from the database 
+and saved in an excel fle on the local computer before the system was terminated. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+15 | P a g e 
+ 
+ 
+ 
+4.5 Face detection using deep learning: An improved faster RCNN approach. 
+ 
+ 
+Fig:1 
+Fig:2 
+Fig:3 
+ 
+In addition to the quantitative evaluation results, we also randomly choose some qualitative 
+results of face detection examples for different cases, as shown in Fig1, Fig2, and Fig3. For 
+example, Fig 1 demonstrates that our model can detect some difficult cases, such as non- frontal 
+faces, heavily occluded faces, faces with low resolution, and faces with extreme poses and/or 
+illumination. Fig 2 lists some selected false positives, where it seems that most of the false 
+positives are missing annotations. Fig 3 lists some of the false negatives, which include some 
+very challenging cases, such as blur faces, heavily occluded faces, and extremely small faces. 
+ 
+In this work, we proposed a new method for face detection using deep learning techniques. 
+Specifically, we extended the state-of-the-art Faster RCNN framework for generic object 
+detection, and proposed several effective strategies for improving the Faster RCNN algorithm 
+for resolving face detection tasks, including feature concatenation, multi-scale training, hard 
+negative mining, and proper configuration of anchor sizes for RPN, etc. We conducted an 
+extensive set of experiments on the well-known FDDB testbed for face detection benchmark, 
+and achieved the state-of-the-art results which ranked the best among all the published methods. 
+Future work will further address the efficiency and scalability of the proposed method for real-
+time face detection. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+16 | P a g e 
+ 
+ 
+ 
+ 
+5. CONCLUSION 
+ 
+ 
+In conclusion, face recognition using machine learning operates by extracting features from 
+facial images through a pre-trained model. These features are transformed into embeddings, 
+allowing for efficient comparison with stored identities in a database, The system then decides 
+the identity of the input face, providing a powerful tool for various applications. Some 
+algorithms used in this paper are a Convolutional Neural Network for feature extraction, a 
+Histogram of Orientation and Gradientation for extracting the features from an image, VGG16 
+can serve as a feature extractor by using its convolutional layers to extract relevant facial features 
+from images, Multi-task Cascaded Neural Network is used to locate and align the facial 
+landmarks (such as eyes, nose, and mouth) and. However, the success of the system depends on 
+the training data. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+17 | P a g e 
+ 
+ 
+ 
+6. REFERENCES 
+ 
+ 
+1. Pandey, Ishan Ratn, Mayank Raj, Kundan Kumar Sah, Tojo Mathew, and M. S. Padmini. 
+"Face Recognition Using Machine Learning." Int. Res. J. Eng. Technol 6 (2019): 3772- 3776. 
+2. Ikromovich, H. O., & Mamatkulovich, B. B. (2023). FACIAL RECOGNITION USING 
+TRANSFER LEARNING IN THE DEEP CNN. Open Access Repository, 4(3), 502-507 
+3. Hussain, S. A., & Al Balushi, A. S. A. (2020). A real-time face emotion classification and 
+recognition using a deep learning model. In Journal of Physics: Conference Series (Vol. 
+1432, No. 1, p. 012087). IOP Publishing. 
+4. Singh, A., Bhatt, S., Nayak, V., & Shah, M. (2023). Automation of surveillance systems using 
+deep learning and facial recognition. International Journal of System Assurance Engineering 
+and Management, 14(Suppl 1), 236-245. 
+5. Sun, X., Wu, P., & Hoi, S. C. (2018). Face detection using deep learning: An improved faster 
+RCNN approach. Neurocomputing, 299, 42-50 
+6. Zhao, F., Li, J., Zhang, L., Li, Z., & Na, S. G. (2020). Multi-view face recognition using deep 
+neural networks. Future Generation Computer Systems, 111, 375-380. 
+7. Gwyn, T., Roy, K., & Atay, M. (2021). Face recognition using popular deep net architectures: 
+A brief comparative study. Future Internet, 13(7), 164. 
+8. Almabdy , S., & Elrefaei , L. (2019). Deep convolutional neural network-based approaches 
+for face recognition. Applied Sciences, 9(20), 4397. 
+9. Prakash, R. M., Thenmoezhi, N., & Gayathri, M. (2019, November). Face recognition with 
+convolutional neural network and transfer learning. In 2019 International Conference on 
+Smart Systems and Inventive Technology (ICSSIT) (pp. 861-864). IEEE. 
+10. Teoh, K. H., Ismail, R. C., Naziri, S. Z. M., Hussin, R., Isa, M. N. M., & Basir, M. S. S. M. 
+(2021, February). Face recognition and identification using deep learning approach. In 
+Journal of Physics: Conference Series (Vol. 1755, No. 1, p. 012006). IOP Publishing. 
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+18 | P a g e 
+ 
+ 
+11. Talaat, F. M. (2023). Real-time facial emotion recognition system among children with 
+autism based on deep learning and IoT. Neural Computing and Applications, 35(17), 
+12717-12728. 
+12. Xu, S., Xu, S., Wang, Z., Pu, C., & Meng, Q. (2020, May). Face Recognition algorithm 
+based on convolutional neural network. In Journal of Physics: Conference Series (Vol. 
+1550, No. 2, p. 022023). IOP Publishing. 
+13. Lou, G., & Shi, H. (2020). Face image recognition based on convolutional neural network. 
+China Communications, 17(2), 117-124. 
+

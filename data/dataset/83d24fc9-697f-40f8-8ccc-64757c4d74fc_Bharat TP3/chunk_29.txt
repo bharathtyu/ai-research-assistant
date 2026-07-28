@@ -1,0 +1,40 @@
+Chunk ID: 29
+Page Number: 15
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+10 | P a g e 
+ 
+ 
+ 
+ 
+ 
+Our method follows the similar deep learning framework of Faster RCNN, which is a state-of- 
+the-art deep learning scheme for generic object detection [10]. It essentially consists of two 
+parts: (1) a Region Proposal Network (RPN) for generating a list of region proposals that likely 
+contain objects, or called regions of interest (RoIs); and (2) a Fast RCNN network for classifying 
+a region of image into objects (and background) and refining the boundaries of those regions. 
+In this work, we propose to extend the Faster RCNN architecture for face detection and train 
+our face detection model by following the proposed procedure as shown in Figure. 
+ 
+ 
+4. RESULTS AND DISCUSSIONS                    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+S.No 
+                            
+                               Paper 
+ 
+Data set 
+ 
+Methods 
+ 
+Results 
+1. 
+Pandey, Ishan Ratn, Mayank Raj, Kundan Kumar Sah, Tojo Mathew, and M. S. 
+Padmini. "Face Recognition Using

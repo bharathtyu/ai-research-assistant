@@ -1,0 +1,21 @@
+Chunk ID: 1
+Page Number: 1
+
+AI Research & Knowledge Assistant 
+ 
+1. Background 
+Modern organizations deal with thousands of research papers, technical documents, internal 
+documentation, product specifications, and knowledge bases. Finding accurate information from 
+these documents is often time-consuming and inefficient. 
+Traditional keyword search systems frequently fail to understand context, while generic Large 
+Language Models (LLMs) may generate inaccurate or hallucinated responses when asked 
+about domain-specific information. 
+Organizations are increasingly adopting Retrieval-Augmented Generation (RAG) systems to 
+enable AI assistants that can retrieve relevant information from enterprise knowledge bases 
+before generating responses. 
+Your task is to design and implement an AI Research & Knowledge Assistant capable of: 
+●​ Understanding multiple documents 
+●​ Retrieving relevant information 
+●​ Reasoning over retrieved content 
+●​ Generating grounded responses with proper citations 
+In addition to documen

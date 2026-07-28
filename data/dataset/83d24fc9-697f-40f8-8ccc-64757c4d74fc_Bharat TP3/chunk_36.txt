@@ -1,0 +1,28 @@
+Chunk ID: 36
+Page Number: 18
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+13 | P a g e 
+ 
+ 
+ 
+ 
+4.3 A real-time face emotion classification 
+and recognition using deep learning 
+Model 
+ 
+ 
+Fig: Sample KDEF data set (KDEF | The Kenya Dryland Education Fund 2019) 
+ 
+Building a dataset to classify emotion using a convolution neural network layer. 
+ 
+The Kenya Dryland Education Fund data set as in the figure has 4900 pictures whereas 1999 
+pictures were removed as they were in side postures and the dataset with 2901 pictures by 
+splitting and training the dataset into 70 % and 30% respectively. Similarly to my images, my 
+dataset was also created with 100 images. 
+ 
+The captured image is bounded in a box and converted into the binary pattern to specify it as a 
+feature vector and stored in a database. The images are trained to match the input image and 
+also classify the expression of facial features as sad, angry, happy, disgusted, and neutral. In the 
+training process, there are seven steps represented below loading the data

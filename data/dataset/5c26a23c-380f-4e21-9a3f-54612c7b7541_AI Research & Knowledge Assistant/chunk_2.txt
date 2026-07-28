@@ -1,0 +1,17 @@
+Chunk ID: 2
+Page Number: 1
+
+​ Retrieving relevant information 
+●​ Reasoning over retrieved content 
+●​ Generating grounded responses with proper citations 
+In addition to document intelligence, the system should leverage Machine Learning to classify 
+documents and provide analytical insights. 
+ 
+2. Objective 
+Develop a production-oriented backend application that enables users to: 
+●​ Upload research papers or technical documents 
+●​ Search across multiple documents using semantic retrieval 
+●​ Interact with an AI assistant 
+●​ Compare documents 
+●​ Summarize information 
+●​ Classify uploaded documents using a TensorFlow model

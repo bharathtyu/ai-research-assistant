@@ -1,0 +1,7 @@
+Chunk ID: 37
+Page Number: 18
+
+on of facial features as sad, angry, happy, disgusted, and neutral. In the 
+training process, there are seven steps represented below loading the dataset, preprocessing, 
+augmenting the data as a feature vector, building and compiling the design model, training and 
+storing the feature vector, and validating the test model.

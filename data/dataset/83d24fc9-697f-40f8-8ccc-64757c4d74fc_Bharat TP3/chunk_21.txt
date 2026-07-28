@@ -1,0 +1,28 @@
+Chunk ID: 21
+Page Number: 11
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+6 | P a g e 
+ 
+ 
+ 
+ 
+ 
+3.2 FACIAL RECOGNITION USING TRANSFER LEARNING IN 
+THE DEEP CNN 
+ 
+ 
+Fig: Pre-trained CNN Model for Facial Recognition 
+ 
+ 
+Example of a pre-trained CNN model used for facial recognition using transfer learning. The 
+pre-trained CNN model is first loaded and the fully connected layers are replaced with new ones. 
+The model is then fine-tuned using a small dataset of facial images to adapt it to the specific 
+facial recognition task. 
+Labeled Faces in the Wild (LFW) dataset, which contains over 13,000 face images of 5,749 
+individuals. We used a deep CNN architecture that consists of convolutional layers, max- 
+pooling layers, and fully connected layers. We compared the performance of our transfer 
+learning approach with that of a baseline CNN that was trained from scratch on the same dataset. 
+We conduct experiments on two facial recognition datasets: LFW (Labeled Faces in the Wild) 
+and CelebA. LFW contains 13,000 images of 5,

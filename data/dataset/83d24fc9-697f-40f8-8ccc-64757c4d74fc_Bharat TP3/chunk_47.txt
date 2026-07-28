@@ -1,0 +1,16 @@
+Chunk ID: 47
+Page Number: 23
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+18 | P a g e 
+ 
+ 
+11. Talaat, F. M. (2023). Real-time facial emotion recognition system among children with 
+autism based on deep learning and IoT. Neural Computing and Applications, 35(17), 
+12717-12728. 
+12. Xu, S., Xu, S., Wang, Z., Pu, C., & Meng, Q. (2020, May). Face Recognition algorithm 
+based on convolutional neural network. In Journal of Physics: Conference Series (Vol. 
+1550, No. 2, p. 022023). IOP Publishing. 
+13. Lou, G., & Shi, H. (2020). Face image recognition based on convolutional neural network. 
+China Communications, 17(2), 117-124.

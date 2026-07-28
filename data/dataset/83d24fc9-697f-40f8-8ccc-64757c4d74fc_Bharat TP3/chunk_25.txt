@@ -1,0 +1,23 @@
+Chunk ID: 25
+Page Number: 13
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+8 | P a g e 
+ 
+ 
+3.4 Automation of surveillance systems using deep learning and facial recognition 
+ 
+ 
+ 
+ 
+Face detection 
+In 2017, OpenCV 3.3 was released, which included a much improved DNN module that works 
+with a variety of deep learning frameworks, including Cafe, TensorFlow, and Torch/PyTorch. 
+Most crucially, regardless of where it was generated, the module could be imported and utilized 
+across any framework. The key contributor to the DNN module, Aleksandr Rybnikov, also 
+included a state-of-art face detector based on the Single Shot Detector (SSD) framework with a 
+ResNet base network in the official release of OpenCV which can be found in the face_detector 
+sub-directory of the DNN samples. With the pre- trained weights, faces could be detected in 
+image stills, videos, video streams, and live webcams using the DNN face detector. Moreover, 
+due to its lightweight architecture, it performs admirably in terms of operational speed, and CPU

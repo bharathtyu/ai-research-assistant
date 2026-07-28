@@ -1,0 +1,21 @@
+Chunk ID: 9
+Page Number: 6
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+1 | P a g e 
+ 
+ 
+1. INTRODUCTION 
+ 
+Face recognition using machine learning is a technology that uses algorithms to identify 
+and verify people's faces. It involves training a model with a large dataset of labelled faces 
+and then using that model to recognize and match faces in real-time. Face Recognition is a 
+category of biometric software that maps individual facial features and stores the data as a 
+face print. Both Machine Learning and Image Processing are the backbones of Face 
+Recognition. Convolution Neural Network in Face Recognition is the widely used 
+algorithm. CNN is a type of deep-learning neural network consisting of five layers. Input, 
+Convolution, Pooling, Fully Connected, and Output layer. The role of the Convolution layer 
+is to apply some learnable filters to the original image to extract the feature from a given 
+dataset. The pooling layer down samples the image to reduce the computation and the fully 
+connected layer makes the

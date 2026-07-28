@@ -1,0 +1,47 @@
+Chunk ID: 7
+Page Number: 5
+
+INDEX 
+CONTENTS 
+PAGE NO 
+I. 
+ACKNOWLEDGEMENT 
+I 
+II. 
+ABSTRACT 
+II 
+1. 
+INTRODUCTION 
+01 
+2. 
+LITERATURE SURVEY 
+02-04 
+2.1 Face Recognition Using Machine Learning 
+02 
+2.2 Facial Recognition Using Transfer Learning in the Deep CNN 
+02 
+2.3 A real-time face emotion classification and recognition using a deep learning model 
+03 
+2.4 Automation of surveillance systems using deep learning and facial recognition 
+03 
+2.5 Face Detection using Deep Learning: An Improved Faster RCNN Approach 
+04 
+3. 
+METHODOLOGY 
+04-10 
+3.1 Face Recognition Using Machine Learning 
+04 
+3.2 Facial Recognition Using Transfer Learning in the Deep CNN 
+06 
+3.3 A real-time face emotion classification and recognition using a deep learning model 
+07 
+3.4 Automation of surveillance systems using deep learning and facial recognition 
+08 
+3.5 Face Detection using Deep Learning: An Improved Faster RCNN Approach 
+09 
+4. 
+RESULTS AND DISCUSSIONS 
+10-16 
+4.1 Face Recognition Using Machine Learning 
+11 
+4.2 Facial Recogniti

@@ -1,0 +1,8 @@
+Chunk ID: 6
+Page Number: 3
+
+4.3 Semantic Search 
+The application should support semantic retrieval instead of simple keyword matching. 
+Given a user query, the system should: 
+1.​ Generate embeddings for the query 
+2.​ Retrieve the most relevant document chunks

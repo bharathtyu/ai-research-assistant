@@ -1,0 +1,11 @@
+Chunk ID: 26
+Page Number: 13
+
+ive webcams using the DNN face detector. Moreover, 
+due to its lightweight architecture, it performs admirably in terms of operational speed, and CPU 
+memory consumption stays comparatively low suitable for real-time detection. The input image 
+passed to the face detector is first pre-processed using the DNN library which includes setting 
+the image dimensions and normalization. The confidence is retrieved after each pass of the 
+input image through the neural network, and weak detection is ruled out if the current 
+confidence falls below the set threshold. The collected ROI is then sent through the face 
+recognition pipeline for identification.

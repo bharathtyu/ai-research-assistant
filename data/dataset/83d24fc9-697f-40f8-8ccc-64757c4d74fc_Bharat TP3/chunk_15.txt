@@ -1,0 +1,33 @@
+Chunk ID: 15
+Page Number: 8
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+3 | P a g e 
+ 
+ 
+ 
+2.3 Hussain, S. A., & Al Balushi, A. S. A. (2020). A real-time face emotion classification 
+and recognition using a deep learning model. In Journal of Physics: Conference Series 
+(Vol.1432, No. 1, p. 012087). IOP Publishing. 
+ 
+ 
+• 
+This paper proposes and investigates the Softmax function which is used to obtain and 
+classify the image between 0 and 1. 
+• 
+The Kenya Dryland Education Fund data set is used. 
+ 
+• 
+Facial recognition is built with the Convolutional Neural Network model where the 
+facial features are extracted and classified as per VGG 16 model. 
+• 
+The performance measures are validated with the CNN model designed with an 
+accuracy of 88%. 
+• 
+Process of face recognition and classification involves various steps such as preprocessing, 
+detection, orientation, extraction of features and classification of emotion. 
+ 
+ 
+2.4 Singh, A., Bhatt, S., Nayak, V., & Shah, M. (2023). Automation of surveillance 
+systems using dee

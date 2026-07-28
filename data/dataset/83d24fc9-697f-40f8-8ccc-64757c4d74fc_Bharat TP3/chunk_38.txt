@@ -1,0 +1,27 @@
+Chunk ID: 38
+Page Number: 19
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+14 | P a g e 
+ 
+ 
+ 
+ 
+ 
+4.4 Automation of surveillance systems using deep learning and facial recognition 
+ 
+ 
+ 
+ 
+ 
+With our original dataset, we evaluated numerous neural models, including VGG16, a 16- 
+layer neural network that won the Imagenet competition in 2014, VGG19, which has 19 layers, 
+VGGFace, which is based on VGG16, Inception v3 with 48 layers, and ResNet-50, which has 
+50 deep layers. Every model was re-trained by keeping the top layers and adding activation and 
+dropout layers as appropriate. As a result of employing pre-trained weights and neural 
+architecture, we were successful in improving the accuracy of our face recognition system. 
+The facial recognition model received live input from the surveillance camera. The model was 
+trained to recognize 26 distinct individuals, and whenever one was identifed, an accuracy 
+associated with the recognition was generated as well. Furthermore, we used XAMPP to set up 
+a local Apache HTTP ser

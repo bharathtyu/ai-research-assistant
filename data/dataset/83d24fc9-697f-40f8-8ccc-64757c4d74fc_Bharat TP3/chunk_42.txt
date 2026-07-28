@@ -1,0 +1,23 @@
+Chunk ID: 42
+Page Number: 21
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+16 | P a g e 
+ 
+ 
+ 
+ 
+5. CONCLUSION 
+ 
+ 
+In conclusion, face recognition using machine learning operates by extracting features from 
+facial images through a pre-trained model. These features are transformed into embeddings, 
+allowing for efficient comparison with stored identities in a database, The system then decides 
+the identity of the input face, providing a powerful tool for various applications. Some 
+algorithms used in this paper are a Convolutional Neural Network for feature extraction, a 
+Histogram of Orientation and Gradientation for extracting the features from an image, VGG16 
+can serve as a feature extractor by using its convolutional layers to extract relevant facial features 
+from images, Multi-task Cascaded Neural Network is used to locate and align the facial 
+landmarks (such as eyes, nose, and mouth) and. However, the success of the system depends on 
+the training data.

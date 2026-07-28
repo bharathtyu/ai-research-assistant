@@ -1,0 +1,34 @@
+Chunk ID: 17
+Page Number: 9
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+4 | P a g e 
+ 
+ 
+ 
+2.5 Sun, X., Wu, P., & Hoi, S. C. (2018). Face detection using deep learning: An 
+improved faster RCNN approach. Neurocomputing, 299, 42-50 
+ 
+ 
+• In this paper Convolution Neural Network (CNN) and VGG16 models are used. 
+• Histogram Orientation Gradient (HOG), Scale Invariant Feature Transform(SIFT), 
+Speed Up Robust Feature(SIFT), and Aggregate Channel Feature(ACF) face detectors 
+are used. 
+• The author of this paper Proposed Recurrent Neural Network Architecture for Face 
+Detection. 
+• 
+A Wider Face data set is used. 
+• The proposed face recognition system is robust against various face presentation attacks, such 
+as printed paper, video replay, and silicone masks. 
+ 
+ 
+3. METHODOLOGY 
+ 
+ 
+3.1 Face Recognition Using Machine Learning 
+ 
+ 
+ 
+ 
+Fig1: Block Diagram of CNN

@@ -1,0 +1,28 @@
+Chunk ID: 1
+Page Number: 1
+
+N BHARAT KUMAR 
+bharathkumarnaram@gmail.com | linkedin.com/in/bharat-kumar-naram-77b936342 | Tekkali, Srikakulam | 7013061129 
+CAREER OBJECTIVE 
+Results-driven IT graduate with a strong foundation in Python and Machine Learning, seeking an entry-level 
+Software Developer or Data/ML Engineer role. Passionate about building scalable and intelligent applications, with a 
+good understanding of developing end-to-end ML systems. Eager to contribute to impactful projects and grow within 
+a dynamic environment. 
+EDUCATION 
+GMR Institute of Technology 
+2021 – 2025 
+B.Tech in Information Technology | CGPA: 8.57 
+Sri Chaitanya Junior College 
+2019 – 2021 
+Intermediate Education | Percentage: 95.3% 
+Aruna Vidhyalayam School 
+2019 
+Secondary Education | CGPA: 9.7 
+TECHNICAL SKILLS AND INTERESTS 
+Programming: C, Python 
+Database Management: SQL (Queries) 
+Web Technologies: HTML, CSS, JavaScript 
+Concepts: OOPs, DBMS 
+Hobbies: Playing Cricket, Travelling 
+INTERNSHIP 
+Attribute-Based Storage with Secu

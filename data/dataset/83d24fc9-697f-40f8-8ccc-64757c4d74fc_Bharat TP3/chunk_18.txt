@@ -1,0 +1,25 @@
+Chunk ID: 18
+Page Number: 10
+
+Term Paper 2023 
+Dept of IT, GMRIT 
+5 | P a g e 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Layers of CNN: 
+• The convolution layer performs the core building block of a Convolutionary Network that 
+performs most of the heavy-lifting computations. The convolution layer's main purpose is to 
+extract features from the image-based input data. By learning image features using small 
+squares of input image, Convolution preserves the spatial relationship between pixels. Using 
+a set of learnable neurons, the input image is compressed. This creates a feature map in the 
+output image and then feeds the feature maps to the next convolution layer as input data. 
+• The pooling layer reduces each activation map's dimensionality but still has the most 
+important information. The images input are divided into a set of rectangles that are not 
+overlapping. A non-linear operation such as average is used to down-sample each region. 
+This layer achieves better generalization, faster convergence, robust translation and 
+distortion,
