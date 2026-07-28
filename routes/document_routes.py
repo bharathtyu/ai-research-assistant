@@ -28,8 +28,6 @@ vector_store = VectorStoreManager()
 summarizer = DocumentSummarizer()
 comparator = DocumentComparator()
 
-classifier = DocumentClassifier()
-
 
 @router.post("/upload")
 async def upload_document(file: UploadFile = File(...)):
@@ -63,7 +61,9 @@ async def upload_document(file: UploadFile = File(...)):
     with open(txt_path, "w", encoding="utf-8") as text_file:
         text_file.write(extracted_text)
 
-    # Predict document category
+    # Load classifier only when needed
+    classifier = DocumentClassifier()
+
     classification = classifier.predict(extracted_text)
 
     predicted_category = classification["category"]
