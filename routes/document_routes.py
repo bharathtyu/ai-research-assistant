@@ -6,7 +6,6 @@ from src.document_processing.chunker import TextChunker
 from src.vector_store.manager import VectorStoreManager
 from src.rag.summarizer import DocumentSummarizer
 from src.rag.comparator import DocumentComparator
-from src.ml.predictor import DocumentClassifier
 
 import os
 import shutil
@@ -61,9 +60,10 @@ async def upload_document(file: UploadFile = File(...)):
     with open(txt_path, "w", encoding="utf-8") as text_file:
         text_file.write(extracted_text)
 
-    # Load classifier only when needed
-    classifier = DocumentClassifier()
+    # Import TensorFlow classifier only when needed
+    from src.ml.predictor import DocumentClassifier
 
+    classifier = DocumentClassifier()
     classification = classifier.predict(extracted_text)
 
     predicted_category = classification["category"]

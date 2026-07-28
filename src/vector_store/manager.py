@@ -1,7 +1,6 @@
 import os
 
 import chromadb
-from sentence_transformers import SentenceTransformer
 
 
 class VectorStoreManager:
@@ -30,6 +29,8 @@ class VectorStoreManager:
         """
 
         if self.embedding_model is None:
+            from sentence_transformers import SentenceTransformer
+
             self.embedding_model = SentenceTransformer(
                 "all-MiniLM-L6-v2"
             )
